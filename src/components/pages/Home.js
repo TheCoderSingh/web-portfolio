@@ -4,14 +4,16 @@ import SectionHeader from '../common/SectionHeader'
 
 const Home = () => {
 	return (
-		<Grid container>
-			<Grid item xs={10}>
-				<SectionHeader sectionTitle="Jaskaran Singh" sectionDescription="Full-Stack Developer" />
-			</Grid>
-			<Grid item xs={2}>
-				{/* <MenuIcon /> */}
+		<section id="home">
+			<Grid container>
+				<Grid item xs={10}>
+					<SectionHeader sectionTitle="Jaskaran Singh" sectionDescription="Full-Stack Developer" />
+				</Grid>
+				<Grid item xs={2}>
+					{/* <MenuIcon /> */}
+				</Grid >
 			</Grid >
-		</Grid >
+		</section>
 	)
 }
 
