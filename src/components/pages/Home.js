@@ -2,6 +2,7 @@ import React from 'react'
 import { Grid, Button, Typography } from '@material-ui/core'
 import SectionHeader from '../common/SectionHeader'
 import NavIcon from '../common/NavIcon'
+import ScrollIcon from '../ScrollIcon'
 
 const Home = () => {
 	return (
@@ -22,6 +23,9 @@ const Home = () => {
 					<Typography id="scroll-text">
 						Scroll down to see how awesome I am...
 					</Typography>
+				</Grid>
+				<Grid item xs={12}>
+					<ScrollIcon />
 				</Grid>
 			</Grid >
 		</section>
