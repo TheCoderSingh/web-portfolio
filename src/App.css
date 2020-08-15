@@ -18,6 +18,7 @@
 /****************************/
 .section-header {
 	margin-left: 40px;
+	margin-top: 30px;
 }
 
 .header-title, .header-description {
@@ -56,4 +57,9 @@
 	height: 100vh;
 	background-color: #efefef;
 	opacity: 0.2;
+}
+
+.menu-icon {
+	text-align: right;
+	padding: 20px 20px 0 0;
 }
