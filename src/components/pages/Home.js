@@ -31,7 +31,7 @@ const Home = () => {
 					<Grid item xs={12}>
 						<Typography id="scroll-text">
 							Scroll down to see how awesome I am...
-					</Typography>
+						</Typography>
 					</Grid>
 					<Grid item xs={12} onClick={executeScroll} >
 						<ScrollIcon />
