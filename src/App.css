@@ -1,5 +1,5 @@
 /******* Font Imports *******/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Squada+One&display=swap');
 
 /****************************/
 /*********** Home ***********/
@@ -77,4 +77,15 @@
 
 #btn-container {
 	text-align: center;
+}
+
+#scroll-text {
+	color: #fff;
+	position: absolute;
+	bottom: 110px;
+	text-align: center;
+	width: 100%;
+	font-size: 2em;
+	font-family: 'Squada One', cursive;
+	line-height: 1.2;
 }
