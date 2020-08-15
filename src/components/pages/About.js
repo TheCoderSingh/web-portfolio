@@ -1,8 +1,10 @@
 import React from 'react'
 
-const About = () => {
+const About = (props) => {
 	return (
-		About
+		<div data-aos="fade-up" data-aos-anchor-placement="bottom-center" ref={props.refProp}>
+			ABOUT
+		</div>
 	)
 }
 
