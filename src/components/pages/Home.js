@@ -3,6 +3,7 @@ import { Grid, Button, Typography } from '@material-ui/core'
 import SectionHeader from '../common/SectionHeader'
 import NavIcon from '../common/NavIcon'
 import ScrollIcon from '../ScrollIcon'
+import NavDrawer from '../common/NavDrawer'
 
 const Home = () => {
 	return (
@@ -13,6 +14,7 @@ const Home = () => {
 				</Grid>
 				<Grid item xs={2}>
 					<NavIcon open={false} />
+					<NavDrawer />
 				</Grid>
 				<Grid item xs={12} id="btn-container">
 					<Button variant="outlined" size="large" id="resume-btn">
