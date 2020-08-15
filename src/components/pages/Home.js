@@ -6,7 +6,7 @@ import ScrollIcon from '../ScrollIcon'
 import NavDrawer from '../common/NavDrawer'
 import About from './About'
 
-const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
+const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop + 100)
 
 const Home = () => {
 	const myRef = useRef(null)
