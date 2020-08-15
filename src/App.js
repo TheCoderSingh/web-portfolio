@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Grid container>
         <Home />
-        <div className="opacity-dimmer"></div>
+        {/* <div className="opacity-dimmer"></div> */}
         <About />
         <Skills />
         <Experience />
