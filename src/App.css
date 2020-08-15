@@ -6,11 +6,11 @@
 /****************************/
 
 #home {
-	background-image: url('./components/assets/homebg.jpg');
-	background-position: center;
+	background-image: url('./components/assets/codebg.png');
 	background-size: cover;
 	height: 100vh;
 	width: 100vw;
+	position: relative;
 }
 
 /****************************/
@@ -46,4 +46,12 @@
 
 .header-line:last-of-type {
 	margin-left: 72px;
+}
+
+.opacity-dimmer {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: #efefef;
+	opacity: 0.2;
 }
