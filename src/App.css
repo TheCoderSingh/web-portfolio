@@ -117,7 +117,7 @@ html {
 	font-size: 50px;
 }
 
-#home, #about {
+#home, #about, #skills {
 	height: 100vh;
 	width: 100vw;
 }
@@ -150,4 +150,13 @@ html {
 
 #scroll-icon:hover, #about img:hover {
 	cursor: pointer;
+}
+
+#skills {
+	opacity: 1;
+}
+
+#skills-header {
+	background-color: #f25555;
+	padding-bottom: 20px;
 }
