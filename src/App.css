@@ -5,7 +5,7 @@
 /********** html ************/
 /****************************/
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 /****************************/
@@ -14,8 +14,6 @@ html {
 #home {
 	background-image: url('./components/assets/codesitbg.jpg');
 	background-size: cover;
-	height: 100vh;
-	width: 100vw;
 	position: relative;
 }
 
@@ -118,4 +116,17 @@ html {
 
 .scroll-icon svg {
 	font-size: 60px;
+}
+
+#home, #about {
+	height: 100vh;
+	width: 100vw;
+}
+
+#about {
+	background-image: url('./components/assets/coffeebg.jpg');
+	opacity: 1;
+	background-size: cover;
+	position: relative;
+	top: -100px;
 }
