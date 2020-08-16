@@ -117,8 +117,13 @@ html {
 	font-size: 50px;
 }
 
-#home, #about, #skills, #experience {
+#home, #about, #experience {
 	height: 100vh;
+	width: 100vw;
+}
+
+#skills {
+	min-height: 100vh;
 	width: 100vw;
 }
 
@@ -135,7 +140,7 @@ html {
 }
 
 #about img {
-	max-width: 100%;
+	max-width: 80%;
 }
 
 #connect-content {
@@ -171,4 +176,23 @@ html {
 
 .long {
 	max-width: 100% !important;
+}
+
+#skills {
+	background-color: #efefef;
+}
+
+#experience {
+	background-color: #4a5288;
+}
+
+/* * {
+	background: #000 !important;
+	color: #0f0 !important;
+	outline: solid #f00 1px !important;
+} */
+
+#social-icons {
+	justify-content: center;
+	margin-top: 20px;
 }

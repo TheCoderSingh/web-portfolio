@@ -29,29 +29,29 @@ const About = (props) => {
 				</Grid>
 			</Grid>
 			<div id="connect-content">
-				<Grid container spacing={2}>
+				<Grid container>
 					<Grid item xs={12}>
 						<Typography variant="h5">
 							Connect With Me
-					</Typography>
+						</Typography>
 					</Grid>
-					<Grid item xs={1}></Grid>
-					<Grid item xs={2}>
-						<a href="https://www.facebook.com/CoderSingh/"><img src={facebook} /></a>
+					<Grid container id="social-icons">
+						<Grid item xs={2}>
+							<a href="https://www.facebook.com/CoderSingh/"><img src={facebook} /></a>
+						</Grid>
+						<Grid item xs={2}>
+							<a href="https://www.instagram.com/codersingh/"><img src={instagram} /></a>
+						</Grid>
+						<Grid item xs={2}>
+							<a href="https://twitter.com/TheCoderSingh"><img src={twitter} /></a>
+						</Grid>
+						<Grid item xs={2}>
+							<a href="https://github.com/TheCoderSingh"><img src={github} /></a>
+						</Grid>
+						<Grid item xs={2}>
+							<a href="https://www.linkedin.com/in/thecodersingh/"><img src={linkedin} /></a>
+						</Grid>
 					</Grid>
-					<Grid item xs={2}>
-						<a href="https://www.instagram.com/codersingh/"><img src={instagram} /></a>
-					</Grid>
-					<Grid item xs={2}>
-						<a href="https://twitter.com/TheCoderSingh"><img src={twitter} /></a>
-					</Grid>
-					<Grid item xs={2}>
-						<a href="https://github.com/TheCoderSingh"><img src={github} /></a>
-					</Grid>
-					<Grid item xs={2}>
-						<a href="https://www.linkedin.com/in/thecodersingh/"><img src={linkedin} /></a>
-					</Grid>
-					<Grid item xs={1}></Grid>
 				</Grid>
 			</div>
 		</section >
