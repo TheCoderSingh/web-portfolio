@@ -196,3 +196,7 @@ html {
 	justify-content: center;
 	margin-top: 20px;
 }
+
+.card-media-exp:first-of-type {
+	background-image: url('components/assets/noticeapp.png');
+}
