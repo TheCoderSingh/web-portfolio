@@ -11,7 +11,7 @@ import linkedin from '../assets/linkedin.png'
 
 const About = (props) => {
 	return (
-		<section id="about" data-aos="fade-up" data-aos-anchor-placement="bottom-center" ref={props.refProp}>
+		<section id="about">
 			<Grid container>
 				<Grid item xs={10}>
 					<SectionHeader sectionTitle="About Me" sectionDescription="Pretty interesting! Eh?" />

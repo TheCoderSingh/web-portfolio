@@ -6,12 +6,7 @@ import ScrollIcon from '../ScrollIcon'
 import NavDrawer from '../common/NavDrawer'
 import About from './About'
 
-const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop + 100)
-
 const Home = () => {
-	const myRef = useRef(null)
-	const executeScroll = () => { scrollToRef(myRef); }
-
 	return (
 		<React.Fragment>
 			<section id="home">
@@ -33,12 +28,12 @@ const Home = () => {
 							Scroll down to see how awesome I am...
 						</Typography>
 					</Grid>
-					<Grid item xs={12} onClick={executeScroll} >
+					<Grid item xs={12}>
 						<ScrollIcon />
 					</Grid>
 				</Grid >
 			</section>
-			<About refProp={myRef} />
+			<About />
 		</React.Fragment>
 	)
 }

@@ -31,7 +31,7 @@ import php from '../assets/php.svg'
 
 const Skills = () => {
 	return (
-		<section id="skills" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
+		<section id="skills">
 			<Grid container id="skills-header">
 				<Grid item xs={10}>
 					<SectionHeader sectionTitle="Skills" sectionDescription="Awesome! Right?" />

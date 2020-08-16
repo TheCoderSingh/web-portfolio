@@ -11,11 +11,7 @@ import Projects from './components/pages/Projects'
 import Publications from './components/pages/Publications'
 import Contact from './components/pages/Contact'
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 function App() {
-  AOS.init();
   return (
     <div className="App">
       <Grid container>
