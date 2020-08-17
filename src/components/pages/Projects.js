@@ -3,6 +3,7 @@ import { Grid } from '@material-ui/core'
 import NavIcon from '../common/NavIcon'
 import NavDrawer from '../common/NavDrawer'
 import SectionHeader from '../common/SectionHeader'
+import ProjectCard from '../ProjectCard'
 
 const Projects = () => {
 	return (
@@ -16,6 +17,9 @@ const Projects = () => {
 					<NavDrawer />
 				</Grid>
 			</Grid>
+			<div id="project-cards">
+				<ProjectCard />
+			</div>
 		</section>
 	)
 }
