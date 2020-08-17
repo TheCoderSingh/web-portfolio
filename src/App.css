@@ -202,4 +202,8 @@ html {
 /****************************/
 /********* Projects *********/
 /****************************/
-
+#projects {
+	background: #FF512F;
+	background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+	background: linear-gradient(to right, #DD2476, #FF512F);
+}
