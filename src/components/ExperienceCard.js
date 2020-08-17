@@ -1,60 +1,44 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
-import CardActionArea from '@material-ui/core/CardActionArea'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
-import CardMedia from '@material-ui/core/CardMedia'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
-import noticeapp from './assets/noticeapp.png'
-import statusbrew from './assets/statusbrew.png'
-import geekers from './assets/geekers.png'
-import netscrew from './assets/netscrew.png'
 
 const useStyles = makeStyles({
-	media: {
-		height: 140,
-		backgroundSize: "contain"
+	root: {
+		minWidth: 275,
 	},
-});
+	title: {
+		fontSize: 16,
+	},
+	pos: {
+		marginBottom: 12,
+	},
+})
 
 const ExperienceCard = (props) => {
 	const classes = useStyles()
 
-	const titleID = props.titleID
-
 	return (
 		<Card className={classes.root}>
-			<CardActionArea>
-				{titleID == "noticeapp" &&
-					<CardMedia className={classes.media} image={noticeapp} title="Notice App" />
-				}
-				{titleID == "statusbrew" &&
-					<CardMedia className={classes.media} image={statusbrew} title="Statusbrew" />
-				}
-				{titleID == "geekers" &&
-					<CardMedia className={classes.media} image={geekers} title="Geekers Technologies" />
-				}
-				{titleID == "netscrew" &&
-					<CardMedia className={classes.media} image={netscrew} title="Netscrew Technologies" />
-				}
-				<CardContent>
-					<Typography gutterBottom variant="h5" component="h2">
-						{props.place}
+			<CardContent>
+				<Typography variant="h5" component="h2">
+					{props.place}
+				</Typography>
+				<Typography className={classes.title} color="textSecondary" gutterBottom>
+					{props.title}
+				</Typography>
+				<Typography className={classes.pos} color="textSecondary">
+					Duties
 					</Typography>
-					<Typography gutterBottom variant="h6" component="h2">
-						{props.title}
-					</Typography>
-					<Typography variant="body2" color="textSecondary" component="p">
-						Duties
-					</Typography>
-				</CardContent>
-			</CardActionArea>
+				<Typography variant="body2" component="p">
+					Date
+        			</Typography>
+			</CardContent>
 			<CardActions>
-				<Button size="small" color="primary">
-					Learn More
-		  		</Button>
+				<Button size="small" className={classes.link}>Learn More</Button>
 			</CardActions>
 		</Card>
 	)

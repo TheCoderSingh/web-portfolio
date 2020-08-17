@@ -197,6 +197,7 @@ html {
 	margin-top: 20px;
 }
 
-.card-media-exp:first-of-type {
-	background-image: url('components/assets/noticeapp.png');
+#exp-cards {
+	margin-top: 30px;
+	padding: 40px;
 }
