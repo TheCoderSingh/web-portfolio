@@ -7,25 +7,38 @@ import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
-import noticeapp from "./assets/noticeapp.png"
+import noticeapp from './assets/noticeapp.png'
+import statusbrew from './assets/statusbrew.png'
+import geekers from './assets/geekers.png'
+import netscrew from './assets/netscrew.png'
 
 const useStyles = makeStyles({
 	media: {
 		height: 140,
+		backgroundSize: "contain"
 	},
 });
 
 const ExperienceCard = (props) => {
 	const classes = useStyles()
 
+	const titleID = props.titleID
+
 	return (
 		<Card className={classes.root}>
 			<CardActionArea>
-				<CardMedia
-					className={classes.media}
-					image={noticeapp}
-					title="Notice App"
-				/>
+				{titleID == "noticeapp" &&
+					<CardMedia className={classes.media} image={noticeapp} title="Notice App" />
+				}
+				{titleID == "statusbrew" &&
+					<CardMedia className={classes.media} image={statusbrew} title="Statusbrew" />
+				}
+				{titleID == "geekers" &&
+					<CardMedia className={classes.media} image={geekers} title="Geekers Technologies" />
+				}
+				{titleID == "netscrew" &&
+					<CardMedia className={classes.media} image={netscrew} title="Netscrew Technologies" />
+				}
 				<CardContent>
 					<Typography gutterBottom variant="h5" component="h2">
 						{props.place}
@@ -35,7 +48,7 @@ const ExperienceCard = (props) => {
 					</Typography>
 					<Typography variant="body2" color="textSecondary" component="p">
 						Duties
-			</Typography>
+					</Typography>
 				</CardContent>
 			</CardActionArea>
 			<CardActions>
@@ -44,7 +57,7 @@ const ExperienceCard = (props) => {
 		  		</Button>
 			</CardActions>
 		</Card>
-	);
+	)
 }
 
 export default ExperienceCard

@@ -20,18 +20,18 @@ const Experience = () => {
 			<Grid container direction="column">
 				<Grid container spacing={2}>
 					<Grid item xs={6}>
-						<ExperienceCard place="Notice App" title="Digital Marketing Intern" />
+						<ExperienceCard place="Notice App" title="Digital Marketing Intern" titleID="noticeapp" />
 					</Grid>
 					<Grid item xs={6}>
-						<ExperienceCard place="Notice App" title="Digital Marketing Intern" />
+						<ExperienceCard place="Statusbrew" title="Bootcamp Intern" titleID="statusbrew" />
 					</Grid>
 				</Grid>
 				<Grid container spacing={2}>
 					<Grid item xs={6}>
-						<ExperienceCard place="Notice App" title="Digital Marketing Intern" />
+						<ExperienceCard place="Geekers Technologies" title="Software Engineer (Development In-Charge)" titleID="geekers" />
 					</Grid>
 					<Grid item xs={6}>
-						<ExperienceCard place="Notice App" title="Digital Marketing Intern" />
+						<ExperienceCard title="Freelancer" place="Netscrew Technologies" titleID="netscrew" />
 					</Grid>
 				</Grid>
 			</Grid>
