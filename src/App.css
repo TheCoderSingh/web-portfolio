@@ -207,3 +207,20 @@ html {
 	background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
 	background: linear-gradient(to right, #DD2476, #FF512F);
 }
+
+#contact-form {
+	text-align: center;
+}
+
+#message {
+	width: calc(100% - 22px);
+	padding: 10px;
+	font-size: 18px;
+	font-family: inherit;
+	border-color: rgb(195, 195, 195);
+	border-radius: 4px;
+}
+
+#contact-form button {
+	margin: 7px;
+}
