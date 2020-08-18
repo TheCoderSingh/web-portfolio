@@ -68,7 +68,7 @@ const ProjectCard = () => {
         		</Typography>
 			</CardContent>
 			<CardActions disableSpacing>
-				<a href="https://aura.thecodersingh.com" className={classes.link} target="_blank">Visit Project</a>
+				<a href="https://aura.thecodersingh.com" className={classes.link} target="_blank" rel="noopener noreferrer">Visit Project</a>
 			</CardActions>
 		</Card>
 	)

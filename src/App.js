@@ -4,7 +4,6 @@ import './App.css';
 import { Grid } from '@material-ui/core'
 
 import Home from './components/pages/Home'
-import About from './components/pages/About'
 import Skills from './components/pages/Skills'
 import Experience from './components/pages/Experience'
 import Projects from './components/pages/Projects'

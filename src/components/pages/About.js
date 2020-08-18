@@ -37,19 +37,19 @@ const About = (props) => {
 					</Grid>
 					<Grid container id="social-icons">
 						<Grid item xs={2}>
-							<a href="https://www.facebook.com/CoderSingh/"><img src={facebook} /></a>
+							<a href="https://www.facebook.com/CoderSingh/"><img src={facebook} alt="Facebook" /></a>
 						</Grid>
 						<Grid item xs={2}>
-							<a href="https://www.instagram.com/codersingh/"><img src={instagram} /></a>
+							<a href="https://www.instagram.com/codersingh/"><img src={instagram} alt="Instagram" /></a>
 						</Grid>
 						<Grid item xs={2}>
-							<a href="https://twitter.com/TheCoderSingh"><img src={twitter} /></a>
+							<a href="https://twitter.com/TheCoderSingh"><img src={twitter} alt="Twitter" /></a>
 						</Grid>
 						<Grid item xs={2}>
-							<a href="https://github.com/TheCoderSingh"><img src={github} /></a>
+							<a href="https://github.com/TheCoderSingh"><img src={github} alt="GitHub" /></a>
 						</Grid>
 						<Grid item xs={2}>
-							<a href="https://www.linkedin.com/in/thecodersingh/"><img src={linkedin} /></a>
+							<a href="https://www.linkedin.com/in/thecodersingh/"><img src={linkedin} alt="LinkedIn" /></a>
 						</Grid>
 					</Grid>
 				</Grid>

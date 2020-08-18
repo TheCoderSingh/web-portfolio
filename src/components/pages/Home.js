@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { Grid, Button, Typography } from '@material-ui/core'
 import SectionHeader from '../common/SectionHeader'
 import NavIcon from '../common/NavIcon'
