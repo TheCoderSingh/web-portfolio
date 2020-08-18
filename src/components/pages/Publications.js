@@ -3,6 +3,7 @@ import { Grid } from '@material-ui/core'
 import NavIcon from '../common/NavIcon'
 import NavDrawer from '../common/NavDrawer'
 import SectionHeader from '../common/SectionHeader'
+import PublicationCard from '../PublicationCard'
 
 const Publications = () => {
 	return (
@@ -14,6 +15,22 @@ const Publications = () => {
 				<Grid item xs={2}>
 					<NavIcon open={false} />
 					<NavDrawer />
+				</Grid>
+				<Grid container direction="column">
+					<div id="publication-cards">
+						<Grid item xs={12}>
+							<PublicationCard />
+						</Grid>
+						<Grid item xs={12}>
+							<PublicationCard />
+						</Grid>
+						<Grid item xs={12}>
+							<PublicationCard />
+						</Grid>
+						<Grid item xs={12}>
+							<PublicationCard />
+						</Grid>
+					</div>
 				</Grid>
 			</Grid>
 		</section>
