@@ -17,9 +17,22 @@ const Projects = () => {
 					<NavDrawer />
 				</Grid>
 			</Grid>
-			<div id="project-cards">
-				<ProjectCard />
-			</div>
+			<Grid container direction="column">
+				<div id="project-cards">
+					<Grid item xs={12}>
+						<ProjectCard />
+					</Grid>
+					<Grid item xs={12}>
+						<ProjectCard />
+					</Grid>
+					<Grid item xs={12}>
+						<ProjectCard />
+					</Grid>
+					<Grid item xs={12}>
+						<ProjectCard />
+					</Grid>
+				</div>
+			</Grid>
 		</section>
 	)
 }
