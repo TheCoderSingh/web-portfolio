@@ -1,6 +1,5 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
-import NavIcon from '../common/NavIcon'
 import NavDrawer from '../common/NavDrawer'
 import SectionHeader from '../common/SectionHeader'
 import html from '../assets/html.png'
@@ -37,7 +36,6 @@ const Skills = () => {
 					<SectionHeader sectionTitle="Skills" sectionDescription="Awesome! Right?" />
 				</Grid>
 				<Grid item xs={2}>
-					<NavIcon open={false} />
 					<NavDrawer />
 				</Grid>
 			</Grid>

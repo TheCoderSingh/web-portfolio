@@ -1,7 +1,5 @@
 import React from 'react'
 import { Grid, Button, Typography } from '@material-ui/core'
-import SectionHeader from '../common/SectionHeader'
-import NavIcon from '../common/NavIcon'
 import ScrollIcon from '../ScrollIcon'
 import NavDrawer from '../common/NavDrawer'
 import About from './About'
@@ -11,17 +9,23 @@ const Home = () => {
 		<React.Fragment>
 			<section id="home">
 				<Grid container>
-					<Grid item xs={10}>
-						<SectionHeader sectionTitle="Jaskaran Singh" sectionDescription="Full-Stack Developer" />
-					</Grid>
-					<Grid item xs={2}>
-						<NavIcon open={false} />
+					<Grid item xs={12}>
 						<NavDrawer />
 					</Grid>
-					<Grid item xs={12} id="btn-container">
-						<Button variant="outlined" size="large" id="resume-btn">
-							Download My Resume
-        			</Button>
+					<Grid item xs={12}>
+						<div className="section-header">
+							<Typography className="header-title" align="center">
+								Jaskaran Singh
+							</Typography>
+							<Typography variant="body1" className="header-description" align="center">
+								Full-Stack Developer
+							</Typography>
+						</div>
+						<Grid item xs={12} id="btn-container">
+							<Button variant="outlined" size="large" id="resume-btn">
+								View My Resume
+        					</Button>
+						</Grid>
 					</Grid>
 					<Grid item xs={12}>
 						<Typography id="scroll-text">

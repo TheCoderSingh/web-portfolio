@@ -1,7 +1,6 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
-import NavIcon from '../common/NavIcon'
 import NavDrawer from '../common/NavDrawer'
 import SectionHeader from '../common/SectionHeader'
 import { TextField, Button, Typography, Avatar, TextareaAutosize } from '@material-ui/core'
@@ -28,7 +27,6 @@ const Contact = () => {
 					<SectionHeader sectionTitle="Let's Talk!" sectionDescription="I eat computers for breakfast!" />
 				</Grid>
 				<Grid item xs={2}>
-					<NavIcon open={false} />
 					<NavDrawer />
 				</Grid>
 			</Grid>

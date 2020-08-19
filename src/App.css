@@ -12,16 +12,17 @@ html {
 /*********** Home ***********/
 /****************************/
 #home {
-	background-image: url('./components/assets/codesitbg.jpg');
+	background-image: url('./components/assets/codebg.jpg');
 	background-size: cover;
 	position: relative;
+	background-position: center;
 }
 
 /****************************/
 /****** Section Header ******/
 /****************************/
 .section-header {
-	margin-left: 40px;
+	/* margin-left: 40px; */
 	margin-top: 30px;
 }
 
@@ -35,8 +36,13 @@ html {
 	font-size: 1.7em !important;
 }
 
+#home .header-title {
+	font-size: 4em !important;
+}
+
 .header-description {
-	text-align: right;
+	/* text-align: right; */
+	font-size: 2em !important;
 }
 
 .header-line {
@@ -76,13 +82,14 @@ html {
 /****************************/
 #resume-btn {
 	border: 1px solid #fff;
-	color: #fff;
+	color: #000;
 	z-index: 1;
 	text-transform: none;
 	font-family: 'Roboto', sans-serif;
 	margin: 0 auto;
 	font-weight: 400;
-	margin-top: 60px;
+	margin-top: 90px;
+	background-color: #fff;
 }
 
 #btn-container {
@@ -94,13 +101,14 @@ html {
 /****************************/
 #scroll-text {
 	color: #fff;
-	position: absolute;
+	/* position: absolute; */
 	bottom: 7em;
 	text-align: center;
 	width: 100%;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	font-family: 'Squada One', cursive;
 	line-height: 1.2;
+	margin-top: 140px;
 }
 
 /****************************/
@@ -108,13 +116,14 @@ html {
 /****************************/
 .scroll-icon {
 	text-align: center;
-	position: absolute;
+	/* position: absolute; */
 	width: 100%;
 	bottom: 100px;
+	margin-top: 10px;
 }
 
 .scroll-icon svg {
-	font-size: 50px;
+	font-size: 40px;
 }
 
 #home {
@@ -187,6 +196,10 @@ html {
 	background: #000 !important;
 	color: #0f0 !important;
 	outline: solid #f00 1px !important;
+}
+
+body {
+	outline: solid #0f0 3px !important;
 } */
 
 #social-icons {
