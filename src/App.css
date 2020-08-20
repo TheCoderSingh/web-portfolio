@@ -231,9 +231,11 @@ body {
 /********* Projects *********/
 /****************************/
 #projects {
-	background: #FF512F;
-	background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
-	background: linear-gradient(to right, #DD2476, #FF512F);
+	background-image: url('./components/assets/projectsbg.jpg');
+}
+
+#project-cards {
+	padding: 20px;
 }
 
 #contact-form {
@@ -251,4 +253,9 @@ body {
 
 #contact-form button {
 	margin: 7px;
+}
+
+.projects img {
+	max-width: 100%;
+	margin-top: 20px;
 }

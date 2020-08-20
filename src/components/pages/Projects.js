@@ -2,32 +2,25 @@ import React from 'react'
 import { Grid } from '@material-ui/core'
 import NavDrawer from '../common/NavDrawer'
 import SectionHeader from '../common/SectionHeader'
-import ProjectCard from '../ProjectCard'
+import ProjectTabs from '../ProjectTabs'
+import Typography from '@material-ui/core/Typography'
+import Pagination from '@material-ui/lab/Pagination'
 
 const Projects = () => {
 	return (
 		<section id="projects">
 			<Grid container>
-				<Grid item xs={10}>
-					<SectionHeader sectionTitle="Projects" sectionDescription="I eat computers for breakfast!" />
-				</Grid>
-				<Grid item xs={2}>
+				<Grid item xs={12}>
 					<NavDrawer />
+				</Grid>
+				<Grid item xs={12}>
+					<SectionHeader sectionTitle="Projects" sectionDescription="I eat computers for breakfast!" />
 				</Grid>
 			</Grid>
 			<Grid container direction="column">
 				<div id="project-cards">
 					<Grid item xs={12}>
-						<ProjectCard />
-					</Grid>
-					<Grid item xs={12}>
-						<ProjectCard />
-					</Grid>
-					<Grid item xs={12}>
-						<ProjectCard />
-					</Grid>
-					<Grid item xs={12}>
-						<ProjectCard />
+						<ProjectTabs />
 					</Grid>
 				</div>
 			</Grid>
