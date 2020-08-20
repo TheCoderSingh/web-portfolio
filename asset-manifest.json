@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0a743c6.chunk.css",
-    "main.js": "/static/js/main.91b23d5e.chunk.js",
-    "main.js.map": "/static/js/main.91b23d5e.chunk.js.map",
+    "main.css": "/static/css/main.19e7f496.chunk.css",
+    "main.js": "/static/js/main.5b050e85.chunk.js",
+    "main.js.map": "/static/js/main.5b050e85.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9fd18a46.js",
     "runtime-main.js.map": "/static/js/runtime-main.9fd18a46.js.map",
-    "static/js/2.73ee215c.chunk.js": "/static/js/2.73ee215c.chunk.js",
-    "static/js/2.73ee215c.chunk.js.map": "/static/js/2.73ee215c.chunk.js.map",
+    "static/js/2.c5bdd876.chunk.js": "/static/js/2.c5bdd876.chunk.js",
+    "static/js/2.c5bdd876.chunk.js.map": "/static/js/2.c5bdd876.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.43da21f964b64d487cd82e81edbe27e9.js": "/precache-manifest.43da21f964b64d487cd82e81edbe27e9.js",
+    "precache-manifest.2bd3982855d1164c53854d242889997f.js": "/precache-manifest.2bd3982855d1164c53854d242889997f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a0a743c6.chunk.css.map": "/static/css/main.a0a743c6.chunk.css.map",
-    "static/js/2.73ee215c.chunk.js.LICENSE.txt": "/static/js/2.73ee215c.chunk.js.LICENSE.txt",
+    "static/css/main.19e7f496.chunk.css.map": "/static/css/main.19e7f496.chunk.css.map",
+    "static/js/2.c5bdd876.chunk.js.LICENSE.txt": "/static/js/2.c5bdd876.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/skillsbg3.58a45a4d.jpg",
     "static/media/android.png": "/static/media/android.a769ca6e.png",
     "static/media/angular.png": "/static/media/angular.9becccbf.png",
-    "static/media/aura.png": "/static/media/aura.226fab71.png",
+    "static/media/aquashot.png": "/static/media/aquashot.1552bf6b.png",
+    "static/media/aura.png": "/static/media/aura.d9d61307.png",
     "static/media/css.png": "/static/media/css.4ba6ee80.png",
     "static/media/docker.png": "/static/media/docker.2103c445.png",
     "static/media/express.png": "/static/media/express.98ff4822.png",
@@ -43,12 +44,13 @@
     "static/media/vue.png": "/static/media/vue.7aabd127.png",
     "static/media/wordpress.png": "/static/media/wordpress.4a619809.png",
     "static/media/xcode.png": "/static/media/xcode.4f8642dc.png",
-    "static/media/xd.png": "/static/media/xd.183b4856.png"
+    "static/media/xd.png": "/static/media/xd.183b4856.png",
+    "static/media/zoom.png": "/static/media/zoom.3b1ac8d3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9fd18a46.js",
-    "static/js/2.73ee215c.chunk.js",
-    "static/css/main.a0a743c6.chunk.css",
-    "static/js/main.91b23d5e.chunk.js"
+    "static/js/2.c5bdd876.chunk.js",
+    "static/css/main.19e7f496.chunk.css",
+    "static/js/main.5b050e85.chunk.js"
   ]
 }
