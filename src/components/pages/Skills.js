@@ -32,11 +32,11 @@ const Skills = () => {
 	return (
 		<section id="skills">
 			<Grid container id="skills-header">
-				<Grid item xs={10}>
-					<SectionHeader sectionTitle="Skills" sectionDescription="Awesome! Right?" />
-				</Grid>
-				<Grid item xs={2}>
+				<Grid item xs={12}>
 					<NavDrawer />
+				</Grid>
+				<Grid item xs={12}>
+					<SectionHeader sectionTitle="Skills" sectionDescription="Awesome! Right?" />
 				</Grid>
 			</Grid>
 			<Grid container id="skills-icons" direction="column">
