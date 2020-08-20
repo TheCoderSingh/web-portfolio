@@ -12,16 +12,16 @@ const About = (props) => {
 	return (
 		<section id="about">
 			<Grid container>
-				<Grid item xs={10}>
-					<SectionHeader sectionTitle="About Me" sectionDescription="Pretty interesting! Eh?" />
-				</Grid>
-				<Grid item xs={2}>
+				<Grid item xs={12}>
 					<NavDrawer />
+				</Grid>
+				<Grid item xs={12}>
+					<SectionHeader sectionTitle="About Me" sectionDescription="Pretty interesting! Eh?" />
 				</Grid>
 				<Grid item xs={12}>
 					<div id="about-content">
 						<Typography>
-							I am a software engineer and a technology enthusiast, who believes that the world can become a better place using technology. I have a professional experience in Website Development and Mobile App Development. I am working on my dream to connect the world using code.
+							I am a software engineer and a technology enthusiast, who believes that the world can become a better place using technology. I have a professional experience in Website Development and Mobile App Development.
 						</Typography>
 					</div>
 				</Grid>
