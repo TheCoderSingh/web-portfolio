@@ -3,8 +3,6 @@ import { Grid } from '@material-ui/core'
 import NavDrawer from '../common/NavDrawer'
 import SectionHeader from '../common/SectionHeader'
 import ProjectTabs from '../ProjectTabs'
-import Typography from '@material-ui/core/Typography'
-import Pagination from '@material-ui/lab/Pagination'
 
 const Projects = () => {
 	return (
