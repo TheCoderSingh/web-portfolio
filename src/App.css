@@ -14,7 +14,6 @@ html {
 #home {
 	background-image: url('./components/assets/codebg2.png');
 	background-size: cover;
-	position: relative;
 	background-position: center;
 }
 
@@ -140,7 +139,6 @@ html {
 #about {
 	background-image: url('./components/assets/aboutbg.jpg');
 	background-size: cover;
-	position: relative;
 	background-position: center;
 }
 
@@ -171,8 +169,11 @@ html {
 }
 
 #skills-header {
-	/* background-color: #f25555; */
 	padding-bottom: 20px;
+}
+
+#skills .section-header p:first-of-type {
+	color: #000;
 }
 
 #skills img {
@@ -194,7 +195,7 @@ html {
 }
 
 #skills {
-	background-image: url(./components/assets/skillsbg.jpg);
+	background-image: url(./components/assets/skillsbg3.jpg);
 	background-size: cover;
     background-position: right;
 }
