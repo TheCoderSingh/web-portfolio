@@ -191,13 +191,20 @@ html {
 }
 
 #skills {
-	background-image: url(./components/assets/skillsbg3.jpg);
+	background-image: url('./components/assets/skillsbg3.jpg');
 	background-size: cover;
     background-position: right;
 }
 
 #experience {
-	background-color: #4a5288;
+	background-image: url('./components/assets/experience.png');
+	background-size: cover;
+	background-position: right;
+}
+
+#experience .section-header p:first-of-type {
+	color: #000;
+	margin-top: 30px;
 }
 
 /* * {
