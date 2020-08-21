@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.19e7f496.chunk.css",
-    "main.js": "/static/js/main.5b050e85.chunk.js",
-    "main.js.map": "/static/js/main.5b050e85.chunk.js.map",
+    "main.css": "/static/css/main.1e5bfe72.chunk.css",
+    "main.js": "/static/js/main.36eb8f62.chunk.js",
+    "main.js.map": "/static/js/main.36eb8f62.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9fd18a46.js",
     "runtime-main.js.map": "/static/js/runtime-main.9fd18a46.js.map",
-    "static/js/2.c5bdd876.chunk.js": "/static/js/2.c5bdd876.chunk.js",
-    "static/js/2.c5bdd876.chunk.js.map": "/static/js/2.c5bdd876.chunk.js.map",
+    "static/js/2.8eb1897b.chunk.js": "/static/js/2.8eb1897b.chunk.js",
+    "static/js/2.8eb1897b.chunk.js.map": "/static/js/2.8eb1897b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2bd3982855d1164c53854d242889997f.js": "/precache-manifest.2bd3982855d1164c53854d242889997f.js",
+    "precache-manifest.974dd52bbd4b86cc45b5aa0895af2ecb.js": "/precache-manifest.974dd52bbd4b86cc45b5aa0895af2ecb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.19e7f496.chunk.css.map": "/static/css/main.19e7f496.chunk.css.map",
-    "static/js/2.c5bdd876.chunk.js.LICENSE.txt": "/static/js/2.c5bdd876.chunk.js.LICENSE.txt",
+    "static/css/main.1e5bfe72.chunk.css.map": "/static/css/main.1e5bfe72.chunk.css.map",
+    "static/js/2.8eb1897b.chunk.js.LICENSE.txt": "/static/js/2.8eb1897b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/skillsbg3.58a45a4d.jpg",
     "static/media/android.png": "/static/media/android.a769ca6e.png",
     "static/media/angular.png": "/static/media/angular.9becccbf.png",
     "static/media/aquashot.png": "/static/media/aquashot.1552bf6b.png",
+    "static/media/arrow.png": "/static/media/arrow.b3c3a5e6.png",
     "static/media/aura.png": "/static/media/aura.d9d61307.png",
     "static/media/css.png": "/static/media/css.4ba6ee80.png",
     "static/media/docker.png": "/static/media/docker.2103c445.png",
@@ -41,7 +42,9 @@
     "static/media/samp.png": "/static/media/samp.dbc127ed.png",
     "static/media/sass.png": "/static/media/sass.73e24896.png",
     "static/media/twitter.png": "/static/media/twitter.7e7a22a7.png",
+    "static/media/varletconst.jpeg": "/static/media/varletconst.96282de6.jpeg",
     "static/media/vue.png": "/static/media/vue.7aabd127.png",
+    "static/media/women.jpeg": "/static/media/women.b5cda194.jpeg",
     "static/media/wordpress.png": "/static/media/wordpress.4a619809.png",
     "static/media/xcode.png": "/static/media/xcode.4f8642dc.png",
     "static/media/xd.png": "/static/media/xd.183b4856.png",
@@ -49,8 +52,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9fd18a46.js",
-    "static/js/2.c5bdd876.chunk.js",
-    "static/css/main.19e7f496.chunk.css",
-    "static/js/main.5b050e85.chunk.js"
+    "static/js/2.8eb1897b.chunk.js",
+    "static/css/main.1e5bfe72.chunk.css",
+    "static/js/main.36eb8f62.chunk.js"
   ]
 }
