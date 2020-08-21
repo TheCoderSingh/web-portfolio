@@ -51,18 +51,53 @@ const useStyles = makeStyles((theme) => ({
 	}
 }));
 
-const NavDrawer = (props) => {
-	const classes = useStyles();
-	const theme = useTheme();
-	const [open, setOpen] = React.useState(false);
+const NavDrawer = () => {
+	const classes = useStyles()
+	const theme = useTheme()
+	const [open, setOpen] = React.useState(false)
 
 	const handleDrawerOpen = () => {
 		setOpen(true);
-	};
+	}
 
 	const handleDrawerClose = () => {
 		setOpen(false);
-	};
+	}
+
+	let openPage = (page) => {
+		let selectedPage
+
+		switch (page) {
+			case "Home":
+				selectedPage = document.getElementById("home")
+				selectedPage.scrollIntoView()
+				break
+			case "About Me":
+				selectedPage = document.getElementById("about")
+				selectedPage.scrollIntoView()
+				break
+			case "Skills":
+				selectedPage = document.getElementById("skills")
+				selectedPage.scrollIntoView()
+				break
+			case "Experience":
+				selectedPage = document.getElementById("experience")
+				selectedPage.scrollIntoView()
+				break
+			case "Projects":
+				selectedPage = document.getElementById("projects")
+				selectedPage.scrollIntoView()
+				break
+			case "Publications":
+				selectedPage = document.getElementById("publications")
+				selectedPage.scrollIntoView()
+				break
+			case "Contact Me":
+				selectedPage = document.getElementById("contact")
+				selectedPage.scrollIntoView()
+				break
+		}
+	}
 
 	return (
 		<div className={classes.menuContainer}>
@@ -91,43 +126,43 @@ const NavDrawer = (props) => {
 				</div>
 				<List>
 					{['Home'].map((text, index) => (
-						<ListItem button key={text} >
-							<ListItemIcon>{<HomeIcon />}</ListItemIcon>
+						<ListItem button key={text} onClick={() => openPage(text)}>
+							<ListItemIcon >{<HomeIcon />}</ListItemIcon>
 							<ListItemText primary={text} />
 						</ListItem>
 					))}
 					{['About Me'].map((text, index) => (
-						<ListItem button key={text} >
+						<ListItem button key={text} onClick={() => openPage(text)}>
 							<ListItemIcon>{<PersonIcon />}</ListItemIcon>
 							<ListItemText primary={text} />
 						</ListItem>
 					))}
 					{['Skills'].map((text, index) => (
-						<ListItem button key={text} >
+						<ListItem button key={text} onClick={() => openPage(text)}>
 							<ListItemIcon>{<EmojiObjectsIcon />}</ListItemIcon>
 							<ListItemText primary={text} />
 						</ListItem>
 					))}
 					{['Experience'].map((text, index) => (
-						<ListItem button key={text} >
+						<ListItem button key={text} onClick={() => openPage(text)}>
 							<ListItemIcon>{<WorkIcon />}</ListItemIcon>
 							<ListItemText primary={text} />
 						</ListItem>
 					))}
 					{['Projects'].map((text, index) => (
-						<ListItem button key={text} >
+						<ListItem button key={text} onClick={() => openPage(text)}>
 							<ListItemIcon>{<CodeIcon />}</ListItemIcon>
 							<ListItemText primary={text} />
 						</ListItem>
 					))}
 					{['Publications'].map((text, index) => (
-						<ListItem button key={text} >
+						<ListItem button key={text} onClick={() => openPage(text)}>
 							<ListItemIcon>{<MenuBookIcon />}</ListItemIcon>
 							<ListItemText primary={text} />
 						</ListItem>
 					))}
 					{['Contact Me'].map((text, index) => (
-						<ListItem button key={text} >
+						<ListItem button key={text} onClick={() => openPage(text)}>
 							<ListItemIcon>{<ContactMailIcon />}</ListItemIcon>
 							<ListItemText primary={text} />
 						</ListItem>

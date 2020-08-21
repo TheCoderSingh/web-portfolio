@@ -39,7 +39,7 @@ const Skills = () => {
 					<SectionHeader sectionTitle="Skills" sectionDescription="Awesome! Right?" />
 				</Grid>
 			</Grid>
-			<Grid container id="skills-icons" direction="column">
+			<Grid container id="skills-icons">
 				<Grid container className="skills-inner" spacing={2}>
 					<Grid item xs={4}>
 						<img src={html} alt="HTML5" />
@@ -132,6 +132,35 @@ const Skills = () => {
 					<Grid item xs={4}>
 						<img src={xcode} alt="Native iOS" />
 					</Grid>
+				</Grid>
+			</Grid>
+			<Grid container id="skills-icons-land">
+				<Grid container className="skills-inner">
+					<img src={html} alt="HTML5" />
+					<img src={css} alt="CSS3" />
+					<img src={js} alt="JavaScript" />
+					<img src={angular} alt="Angular" />
+					<img src={vue} alt="Vue.js" />
+					<img src={laravel} alt="Laravel" />
+					<img src={sass} alt="SASS" />
+					<img src={python} alt="Python" />
+					<img src={docker} alt="Docker" />
+					<img src={graphql} alt="GraphQL" />
+					<img src={git} alt="Git" />
+					<img src={project} alt="Microsoft Project" />
+					<img src={express} alt="Express.js" className="long" />
+					<img src={jquery} alt="jQuery" className="long" />
+					<img src={wordpress} alt="Wordpress" className="long" />
+					<img src={quasar} alt="Quasar" className="long" />
+					<img src={react} alt="ReactJS/React Native" className="long" />
+					<img src={node} alt="Node.js" className="long" />
+					<img src={mysql} alt="MySQL" className="long" />
+					<img src={photoshop} alt="Native Android" />
+					<img src={illustrator} alt="Native iOS" />
+					<img src={xd} alt="MySQL" />
+					<img src={android} alt="Native Android" />
+					<img src={php} alt="PHP" className="long" />
+					<img src={xcode} alt="Native iOS" />
 				</Grid>
 			</Grid>
 		</section >

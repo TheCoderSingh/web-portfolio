@@ -5,6 +5,7 @@ import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
+import { Grid } from '@material-ui/core'
 
 const useStyles = makeStyles({
 	root: {
@@ -46,18 +47,24 @@ const ExperienceCard = (props) => {
 	return (
 		<Card className={classes.root}>
 			<CardContent>
-				<Typography variant="h5" component="h2" className={classes.title}>
-					{props.title}
-				</Typography>
-				<Typography className={classes.pos} color="textSecondary">
-					{props.place}
-				</Typography>
-				<Typography color="textSecondary" className={classes.date} gutterBottom>
-					{props.date}
-				</Typography>
-				<Typography variant="body2" component="p" className={classes.description}>
-					{props.description}
-				</Typography>
+				<Grid container className="experience">
+					<Grid item className="experience-head" md={3}>
+						<Typography variant="h5" component="h2" className={classes.title}>
+							{props.title}
+						</Typography>
+						<Typography className={classes.pos} color="textSecondary">
+							{props.place}
+						</Typography>
+						<Typography color="textSecondary" className={classes.date} gutterBottom>
+							{props.date}
+						</Typography>
+					</Grid>
+					<Grid item md={9}>
+						<Typography variant="body2" component="p" className={classes.description}>
+							{props.description}
+						</Typography>
+					</Grid>
+				</Grid>
 			</CardContent>
 			<CardActions className={classes.button}>
 				<Button size="small">Learn More</Button>

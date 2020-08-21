@@ -63,7 +63,6 @@ const Contact = () => {
 										id="email"
 										type="email"
 										label="Email Address"
-										autoFocus
 									/>
 								</Grid>
 								<Grid item xs={12}>

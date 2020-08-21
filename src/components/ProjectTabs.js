@@ -45,8 +45,7 @@ function a11yProps(index) {
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		flexGrow: 1,
-		backgroundColor: theme.palette.background.paper,
+		flexGrow: 1
 	},
 	tabs: {
 		backgroundColor: "#2fa52f"
@@ -73,34 +72,48 @@ const ProjectTabs = () => {
 			</AppBar>
 			<TabPanel value={value} index={0}>
 				<div className="projects">
-					<Grid container>
-						<Grid item xs={12}>
+					<Grid container spacing={3}>
+						<Grid item xs={12} md={6}>
 							<img src={aura} alt="Aura" />
 						</Grid>
-						<Grid item xs={12}>
+						<Grid item xs={12} md={6}>
 							<img src={zoom} alt="Zoom" />
 						</Grid>
-						<Grid item xs={12}>
+						<Grid item xs={12} md={6}>
 							<img src={aquashot} alt="Aquashot" />
 						</Grid>
 					</Grid>
 				</div>
 			</TabPanel>
 			<TabPanel value={value} index={1}>
-				<Grid item xs={12}>
-					<img src={aura} alt="Aura" />
-				</Grid>
+				<div className="projects">
+					<Grid container spacing={3}>
+						<Grid item xs={12} md={6}>
+							<img src={aura} alt="Aura" />
+						</Grid>
+					</Grid>
+				</div>
 			</TabPanel>
 			<TabPanel value={value} index={2}>
-				Item Three
-      		</TabPanel>
+				<div className="projects">
+					<Grid container spacing={3}>
+						<Grid item xs={12} md={6}>
+							<img src={zoom} alt="Zoom" />
+						</Grid>
+					</Grid>
+				</div>
+			</TabPanel>
 			<TabPanel value={value} index={3}>
-				<Grid item xs={12}>
-					<img src={zoom} alt="Zoom" />
-				</Grid>
-				<Grid item xs={12}>
-					<img src={aquashot} alt="Aquashot" />
-				</Grid>
+				<div className="projects">
+					<Grid container spacing={3}>
+						<Grid item xs={12} md={6}>
+							<img src={zoom} alt="Zoom" />
+						</Grid>
+						<Grid item xs={12} md={6}>
+							<img src={aquashot} alt="Aquashot" />
+						</Grid>
+					</Grid>
+				</div>
 			</TabPanel>
 		</div>
 	)

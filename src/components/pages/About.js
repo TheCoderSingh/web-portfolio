@@ -8,7 +8,7 @@ import twitter from '../assets/twitter.png'
 import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 
-const About = (props) => {
+const About = () => {
 	return (
 		<section id="about">
 			<Grid container>

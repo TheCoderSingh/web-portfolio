@@ -15,7 +15,7 @@ const Projects = () => {
 					<SectionHeader sectionTitle="Projects" sectionDescription="I eat computers for breakfast!" />
 				</Grid>
 			</Grid>
-			<Grid container direction="column">
+			<Grid container>
 				<div id="project-cards">
 					<Grid item xs={12}>
 						<ProjectTabs />

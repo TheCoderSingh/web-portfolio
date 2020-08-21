@@ -130,12 +130,21 @@ html {
 
 .scroll-icon svg {
 	font-size: 40px;
+	cursor: pointer;
 }
 
 #about {
-	background-image: url('./components/assets/aboutbg.jpg');
+	background-image: url('./components/assets/aboutbg3.jpg');
 	background-size: cover;
 	background-position: center;
+}
+
+#about .section-header p:first-of-type {
+	color: #000;
+}
+
+#about svg {
+	color: #000 !important;
 }
 
 #about-content {
@@ -156,7 +165,7 @@ html {
 
 #connect-content {
 	text-align: center;
-	color: #fff;
+	color: #000;
 	margin: 200px 0 80px 0;
 }
 
@@ -297,4 +306,115 @@ body {
 
 #contact textarea:focus {
 	background: #fff;
+}
+
+
+#skills-icons-land {
+	display: none;
+}
+
+@media only screen and (min-width: 1260px) {
+	#home {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 550px) {
+	#connect-content {
+		margin-top: 80px;
+	}
+
+	#connect-content img {
+		max-width: 85%;
+	}
+
+	#social-icons .MuiGrid-grid-xs-2 {
+		max-width: 60px;
+	}
+
+	#about-content {
+		max-width: 60%;
+		margin: 0 auto;
+	}
+
+	#about img {
+		max-width: 60%;
+		margin: 0 auto;
+	}
+
+	#skills-icons {
+		display: none;
+	}
+
+	#skills {
+		width: 100%;
+	}
+
+	
+	#skills-icons-land {
+		display: block;
+	}
+
+	#skills-icons-land img {
+		max-width: 60px;
+	}
+
+	#skills-icons-land .long {
+		max-height: 60px;
+	}
+
+	#skills-icons-land .skills-inner {
+		justify-content: center;
+		max-width: 80%;
+		margin: 0 auto;
+	}
+
+	#skills-icons-land .skills-inner img {
+		padding: 30px;
+	}
+
+	#skills {
+		background: none;
+	}
+
+	#experience {
+		width: 100%;
+		background: url(./components/assets/expbg2.jpg);
+		background-size: cover;
+		background-position: top;
+	}
+
+	#exp-cards {
+		max-width: 60%;
+		margin: 0 auto;
+	}
+
+	.experience h2, .experience p{
+		text-align: left;
+	}
+
+	#experience button {
+		display: none;
+	}
+
+	#project-cards {
+		max-width: 70%;
+		margin: 0 auto;
+	}
+
+	#about {
+		/* background: none; */
+	}
+
+	#about p:first-of-type {
+		color: #000;
+	}
+
+	#home .section-header {
+		margin-top: 80px;
+	}
+
+	#scroll-text {
+		margin-top: 120px;
+	}
 }

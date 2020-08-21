@@ -5,6 +5,10 @@ import NavDrawer from '../common/NavDrawer'
 import About from './About'
 
 const Home = () => {
+	let viewResume = () => {
+		window.open('https://docs.google.com/document/d/1CXHsDwPtYPIaddhVzrCZR4oPKs1xkr49BkfdNGqAs1k/edit?usp=sharing', '_blank')
+	}
+
 	return (
 		<React.Fragment>
 			<section id="home">
@@ -22,7 +26,7 @@ const Home = () => {
 							</Typography>
 						</div>
 						<Grid item xs={12} id="btn-container">
-							<Button variant="outlined" size="large" id="resume-btn">
+							<Button variant="outlined" size="large" id="resume-btn" onClick={viewResume}>
 								View My Resume
         					</Button>
 						</Grid>
