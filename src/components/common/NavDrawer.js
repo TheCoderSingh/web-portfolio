@@ -96,6 +96,8 @@ const NavDrawer = () => {
 				selectedPage = document.getElementById("contact")
 				selectedPage.scrollIntoView()
 				break
+			default:
+				break
 		}
 	}
 

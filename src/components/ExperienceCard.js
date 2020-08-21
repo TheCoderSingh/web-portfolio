@@ -48,7 +48,7 @@ const ExperienceCard = (props) => {
 		<Card className={classes.root}>
 			<CardContent>
 				<Grid container className="experience">
-					<Grid item className="experience-head" md={3}>
+					<Grid item className="experience-head" xs={12}>
 						<Typography variant="h5" component="h2" className={classes.title}>
 							{props.title}
 						</Typography>
@@ -59,16 +59,13 @@ const ExperienceCard = (props) => {
 							{props.date}
 						</Typography>
 					</Grid>
-					<Grid item md={9}>
+					<Grid item xs={12}>
 						<Typography variant="body2" component="p" className={classes.description}>
 							{props.description}
 						</Typography>
 					</Grid>
 				</Grid>
 			</CardContent>
-			<CardActions className={classes.button}>
-				<Button size="small">Learn More</Button>
-			</CardActions>
 		</Card>
 	)
 }

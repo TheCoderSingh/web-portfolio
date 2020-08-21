@@ -205,10 +205,6 @@ html {
     background-position: right;
 }
 
-#experience {
-	background: #efefef;
-}
-
 #experience .section-header p:first-of-type {
 	color: #000;
 	margin-top: 30px;
@@ -313,6 +309,13 @@ body {
 	display: none;
 }
 
+#experience {
+	width: 100%;
+	background: url(./components/assets/expbg3.jpg);
+	background-size: cover;
+	background-position: right;
+}
+
 @media only screen and (min-width: 1260px) {
 	#home {
 		width: 100%;
@@ -377,13 +380,6 @@ body {
 		background: none;
 	}
 
-	#experience {
-		width: 100%;
-		background: url(./components/assets/expbg2.jpg);
-		background-size: cover;
-		background-position: top;
-	}
-
 	#exp-cards {
 		max-width: 60%;
 		margin: 0 auto;
@@ -393,17 +389,9 @@ body {
 		text-align: left;
 	}
 
-	#experience button {
-		display: none;
-	}
-
 	#project-cards {
 		max-width: 70%;
 		margin: 0 auto;
-	}
-
-	#about {
-		/* background: none; */
 	}
 
 	#about p:first-of-type {
@@ -416,5 +404,13 @@ body {
 
 	#scroll-text {
 		margin-top: 120px;
+	}
+
+	.experience h2, .experience p {
+		text-align: center;
+	}
+
+	#experience {
+		background-position: top;
 	}
 }
