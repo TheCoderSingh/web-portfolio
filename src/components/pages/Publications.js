@@ -12,12 +12,11 @@ const Publications = () => {
 					<NavDrawer />
 				</Grid>
 				<Grid item xs={12}>
-					<SectionHeader sectionTitle="Publications" sectionDescription="I eat computers for breakfast!" />
+					<SectionHeader sectionTitle="Publications" sectionDescription='"Words are our most inexhaustible source of magic"' />
 				</Grid>
-				<Grid container direction="column">
+				<Grid container>
 					<div id="publication-cards">
 						<Grid item xs={12}>
-							{/* <PublicationCard /> */}
 							<PublicationTabs />
 						</Grid>
 					</div>

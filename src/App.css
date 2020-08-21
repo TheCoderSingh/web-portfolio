@@ -436,4 +436,17 @@ body {
 	#projects {
 		background-position: center;
 	}
+
+	#publication-cards {
+		max-width: 70%;
+		margin: 40px auto;
+	}
+
+	.publication {
+		max-width: 80%;
+	}
+
+	.publication img {
+		max-height: 150px;
+	}
 }
