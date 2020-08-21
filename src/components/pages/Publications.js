@@ -2,31 +2,23 @@ import React from 'react'
 import { Grid } from '@material-ui/core'
 import NavDrawer from '../common/NavDrawer'
 import SectionHeader from '../common/SectionHeader'
-import PublicationCard from '../PublicationCard'
+import PublicationTabs from '../PublicationTabs'
 
 const Publications = () => {
 	return (
 		<section id="publications">
 			<Grid container>
-				<Grid item xs={10}>
-					<SectionHeader sectionTitle="Publications" sectionDescription="I eat computers for breakfast!" />
-				</Grid>
-				<Grid item xs={2}>
+				<Grid item xs={12}>
 					<NavDrawer />
+				</Grid>
+				<Grid item xs={12}>
+					<SectionHeader sectionTitle="Publications" sectionDescription="I eat computers for breakfast!" />
 				</Grid>
 				<Grid container direction="column">
 					<div id="publication-cards">
 						<Grid item xs={12}>
-							<PublicationCard />
-						</Grid>
-						<Grid item xs={12}>
-							<PublicationCard />
-						</Grid>
-						<Grid item xs={12}>
-							<PublicationCard />
-						</Grid>
-						<Grid item xs={12}>
-							<PublicationCard />
+							{/* <PublicationCard /> */}
+							<PublicationTabs />
 						</Grid>
 					</div>
 				</Grid>
