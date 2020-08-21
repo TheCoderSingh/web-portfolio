@@ -13,7 +13,8 @@ const useStyles = makeStyles(() => ({
 	avatar: {
 		marginLeft: "auto",
 		marginRight: "auto",
-		marginBottom: 20
+		marginBottom: 20,
+		backgroundColor: "#2fa52f"
 	}
 }))
 
@@ -39,7 +40,8 @@ const Contact = () => {
         		</Typography>
 				<Grid container direction="column" spacing={2}>
 					<Grid item xs={12}>
-						<form className={classes.form}>
+						<form className={classes.form} action="https://formkeep.com/f/891f223c08c4" acceptCharset="UTF-8"
+							encType="multipart/form-data" method="POST" target="_blank">
 							<Grid container spacing={2}>
 								<Grid item xs={12}>
 									<TextField
@@ -50,7 +52,6 @@ const Contact = () => {
 										fullWidth
 										id="name"
 										label="Your Name"
-										autoFocus
 									/>
 								</Grid>
 								<Grid item xs={12}>

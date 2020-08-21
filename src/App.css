@@ -336,6 +336,10 @@ body {
 	width: 100%;
 }
 
+#contact {
+	width: 100%;
+}
+
 @media only screen and (min-width: 1260px) {
 	#home {
 		width: 100%;
@@ -448,5 +452,10 @@ body {
 
 	.publication img {
 		max-height: 150px;
+	}
+
+	#contact-form {
+		max-width: 40%;
+		margin: 40px auto;
 	}
 }
