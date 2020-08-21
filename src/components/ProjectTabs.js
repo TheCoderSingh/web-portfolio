@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
 		flexGrow: 1
 	},
 	tabs: {
-		backgroundColor: "#2fa52f"
+		backgroundColor: "#333"
 	}
 }));
 
@@ -73,14 +73,14 @@ const ProjectTabs = () => {
 			<TabPanel value={value} index={0}>
 				<div className="projects">
 					<Grid container spacing={3}>
-						<Grid item xs={12} md={6}>
-							<img src={aura} alt="Aura" />
+						<Grid item xs={12} md={4}>
+							<a href="https://aura.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={aura} alt="Aura" /></a>
 						</Grid>
-						<Grid item xs={12} md={6}>
-							<img src={zoom} alt="Zoom" />
+						<Grid item xs={12} md={4}>
+							<a href="https://zoom.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom" /></a>
 						</Grid>
-						<Grid item xs={12} md={6}>
-							<img src={aquashot} alt="Aquashot" />
+						<Grid item xs={12} md={4}>
+							<a href="https://aquashot.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={aquashot} alt="Aquashot" /></a>
 						</Grid>
 					</Grid>
 				</div>
@@ -88,8 +88,8 @@ const ProjectTabs = () => {
 			<TabPanel value={value} index={1}>
 				<div className="projects">
 					<Grid container spacing={3}>
-						<Grid item xs={12} md={6}>
-							<img src={aura} alt="Aura" />
+						<Grid item xs={12} md={4}>
+							<a href="https://aura.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={aura} alt="Aura" /></a>
 						</Grid>
 					</Grid>
 				</div>
@@ -97,8 +97,8 @@ const ProjectTabs = () => {
 			<TabPanel value={value} index={2}>
 				<div className="projects">
 					<Grid container spacing={3}>
-						<Grid item xs={12} md={6}>
-							<img src={zoom} alt="Zoom" />
+						<Grid item xs={12} md={4}>
+							<a href="https://zoom.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom" /></a>
 						</Grid>
 					</Grid>
 				</div>
@@ -106,11 +106,11 @@ const ProjectTabs = () => {
 			<TabPanel value={value} index={3}>
 				<div className="projects">
 					<Grid container spacing={3}>
-						<Grid item xs={12} md={6}>
-							<img src={zoom} alt="Zoom" />
+						<Grid item xs={12} md={4}>
+							<a href="https://zoom.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom" /></a>
 						</Grid>
-						<Grid item xs={12} md={6}>
-							<img src={aquashot} alt="Aquashot" />
+						<Grid item xs={12} md={4}>
+							<a href="https://aquashot.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={aquashot} alt="Aquashot" /></a>
 						</Grid>
 					</Grid>
 				</div>

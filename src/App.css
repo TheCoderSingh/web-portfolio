@@ -233,9 +233,6 @@ body {
 /****************************/
 /********* Projects *********/
 /****************************/
-#projects {
-	background-image: url('./components/assets/projectsbg.jpg');
-}
 
 #project-cards {
 	padding: 20px;
@@ -316,6 +313,29 @@ body {
 	background-position: right;
 }
 
+#projects .section-header p:first-of-type {
+	color: #000;
+}
+
+#projects svg {
+	color: #000 !important;
+}
+
+.projects img {
+	cursor: pointer;
+}
+
+.projects img:hover {
+	opacity: 0.7;
+}
+
+#projects {
+	background: url('./components/assets/skillsbg.jpg');
+	background-size: cover;
+	background-position: right;
+	width: 100%;
+}
+
 @media only screen and (min-width: 1260px) {
 	#home {
 		width: 100%;
@@ -390,7 +410,6 @@ body {
 	}
 
 	#project-cards {
-		max-width: 70%;
 		margin: 0 auto;
 	}
 
@@ -412,5 +431,9 @@ body {
 
 	#experience {
 		background-position: top;
+	}
+
+	#projects {
+		background-position: center;
 	}
 }
