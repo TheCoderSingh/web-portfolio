@@ -111,7 +111,7 @@ html {
 	color: #fff;
 	text-align: center;
 	width: 100%;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-family: 'Squada One', cursive;
 	line-height: 1.2;
 	margin-top: 60px;
@@ -205,10 +205,6 @@ html {
 	margin-top: 30px;
 }
 
-#experience svg {
-	color: #000 !important;
-}
-
 /* * {
 	background: #000 !important;
 	color: #0f0 !important;
@@ -280,6 +276,25 @@ body {
 	font-size: 3.8em !important;
 }
 
-#publications svg {
+#skills .menu-btn, #experience .menu-btn, #publications .menu-btn, #contact .menu-btn {
 	color: #000 !important;
+}
+
+#contact {
+	background-image: url('./components/assets/contactbg.jpg');
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 40px;
+}
+
+#contact .section-header p:first-of-type {
+	color: #000;
+}
+
+#contact textarea {
+	background: transparent;
+}
+
+#contact textarea:focus {
+	background: #fff;
 }

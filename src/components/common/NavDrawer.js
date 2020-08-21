@@ -73,7 +73,7 @@ const NavDrawer = (props) => {
 				edge="start"
 				className={clsx(classes.menuButton, open && classes.hide)}
 			>
-				<MenuIcon fontSize="large" style={{ color: 'white' }} />
+				<MenuIcon fontSize="large" style={{ color: 'white' }} className="menu-btn" />
 			</IconButton>
 			<Drawer
 				className={classes.drawer}

@@ -23,11 +23,11 @@ const Contact = () => {
 	return (
 		<section id="contact">
 			<Grid container>
-				<Grid item xs={10}>
-					<SectionHeader sectionTitle="Let's Talk!" sectionDescription="I eat computers for breakfast!" />
-				</Grid>
-				<Grid item xs={2}>
+				<Grid item xs={12}>
 					<NavDrawer />
+				</Grid>
+				<Grid item xs={12}>
+					<SectionHeader sectionTitle="Interested?" />
 				</Grid>
 			</Grid>
 			<div id="contact-form">
