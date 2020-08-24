@@ -9,6 +9,8 @@ import { Grid } from '@material-ui/core'
 import aura from './assets/projects/aura.png'
 import zoom from './assets/projects/zoom.png'
 import aquashot from './assets/projects/aquashot.png'
+import alunos from './assets/projects/alunos.png'
+import elixir from './assets/projects/elixir.png'
 
 function TabPanel(props) {
 	const { children, value, index, ...other } = props;
@@ -34,13 +36,13 @@ TabPanel.propTypes = {
 	children: PropTypes.node,
 	index: PropTypes.any.isRequired,
 	value: PropTypes.any.isRequired,
-};
+}
 
 function a11yProps(index) {
 	return {
 		id: `project-${index}`,
 		'aria-controls': `simple-tabpanel-${index}`,
-	};
+	}
 }
 
 const useStyles = makeStyles((theme) => ({
@@ -50,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
 	tabs: {
 		backgroundColor: "#333"
 	}
-}));
+}))
 
 const ProjectTabs = () => {
 	const classes = useStyles();
@@ -58,7 +60,7 @@ const ProjectTabs = () => {
 
 	const handleChange = (event, newValue) => {
 		setValue(newValue);
-	};
+	}
 
 	return (
 		<div className={classes.root}>
@@ -67,27 +69,34 @@ const ProjectTabs = () => {
 					<Tab label="All" {...a11yProps(0)} />
 					<Tab label="React" {...a11yProps(1)} />
 					<Tab label="Angular" {...a11yProps(2)} />
-					<Tab label="JavaScript" {...a11yProps(3)} />
+					<Tab label="Vue" {...a11yProps(3)} />
+					<Tab label="JavaScript" {...a11yProps(4)} />
 				</Tabs>
 			</AppBar>
 			<TabPanel value={value} index={0}>
 				<div className="projects">
-					<Grid container spacing={3}>
+					<Grid container>
+						<Grid item xs={12} md={4}>
+							<a href="https://alunos.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={alunos} alt="Alunos" /></a>
+						</Grid>
 						<Grid item xs={12} md={4}>
 							<a href="https://aura.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={aura} alt="Aura" /></a>
 						</Grid>
 						<Grid item xs={12} md={4}>
-							<a href="https://zoom.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom" /></a>
+							<a href="https://aquashot.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={aquashot} alt="Aquashot" /></a>
 						</Grid>
 						<Grid item xs={12} md={4}>
-							<a href="https://aquashot.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={aquashot} alt="Aquashot" /></a>
+							<a href="https://elixir.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={elixir} alt="Elixir" /></a>
+						</Grid>
+						<Grid item xs={12} md={4}>
+							<a href="https://zoom.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom" /></a>
 						</Grid>
 					</Grid>
 				</div>
 			</TabPanel>
 			<TabPanel value={value} index={1}>
 				<div className="projects">
-					<Grid container spacing={3}>
+					<Grid container>
 						<Grid item xs={12} md={4}>
 							<a href="https://aura.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={aura} alt="Aura" /></a>
 						</Grid>
@@ -96,7 +105,7 @@ const ProjectTabs = () => {
 			</TabPanel>
 			<TabPanel value={value} index={2}>
 				<div className="projects">
-					<Grid container spacing={3}>
+					<Grid container>
 						<Grid item xs={12} md={4}>
 							<a href="https://zoom.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom" /></a>
 						</Grid>
@@ -107,10 +116,22 @@ const ProjectTabs = () => {
 				<div className="projects">
 					<Grid container spacing={3}>
 						<Grid item xs={12} md={4}>
-							<a href="https://zoom.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom" /></a>
+							<a href="https://alunos.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={alunos} alt="Alunos" /></a>
+						</Grid>
+					</Grid>
+				</div>
+			</TabPanel>
+			<TabPanel value={value} index={4}>
+				<div className="projects">
+					<Grid container>
+						<Grid item xs={12} md={4}>
+							<a href="https://elixir.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={elixir} alt="Elixir" /></a>
 						</Grid>
 						<Grid item xs={12} md={4}>
 							<a href="https://aquashot.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={aquashot} alt="Aquashot" /></a>
+						</Grid>
+						<Grid item xs={12} md={4}>
+							<a href="https://zoom.thecodersingh.com" target="_blank" rel="noopener noreferrer"><img src={zoom} alt="Zoom" /></a>
 						</Grid>
 					</Grid>
 				</div>
