@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25c123a20f7a884d5dd048273ed1755a",
+    "revision": "ac272bf3eed83d2e115b0247a9d5dc84",
     "url": "/index.html"
   },
   {
-    "revision": "9dbdd4b3819ad0052ed9",
-    "url": "/static/css/main.dd5d95bd.chunk.css"
+    "revision": "86f1cae285285d98762a",
+    "url": "/static/css/main.86b10880.chunk.css"
   },
   {
-    "revision": "1f58ce935e96957a7706",
-    "url": "/static/js/2.7723542a.chunk.js"
+    "revision": "a793566f0709f10d0ba4",
+    "url": "/static/js/2.e67628a8.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.7723542a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e67628a8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9dbdd4b3819ad0052ed9",
-    "url": "/static/js/main.1a9f0e18.chunk.js"
+    "revision": "86f1cae285285d98762a",
+    "url": "/static/js/main.7cb2edf2.chunk.js"
   },
   {
     "revision": "f53ad8bb13a47484d900",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "81ae3f75f95559970b3f9d3cfd20eadc",
     "url": "/static/media/aboutbg3.81ae3f75.jpg"
+  },
+  {
+    "revision": "0141417b9793e37f34b6790929b3e203",
+    "url": "/static/media/alunos.0141417b.png"
   },
   {
     "revision": "a769ca6e21792a7be80948ce615e5d55",
@@ -44,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/arrow.b3c3a5e6.png"
   },
   {
-    "revision": "d9d613075b2348119664d50d92521d73",
-    "url": "/static/media/aura.d9d61307.png"
+    "revision": "b155bd2131499f689de4ac3dac0f36db",
+    "url": "/static/media/aura.b155bd21.png"
   },
   {
     "revision": "ec80ae67d1f6fbc0e48c5ee61d5d7dbf",
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2103c44598b4a6454d3df6e57b3d1415",
     "url": "/static/media/docker.2103c445.png"
+  },
+  {
+    "revision": "e7f8d82cd065ded331157f5854c55cf5",
+    "url": "/static/media/elixir.e7f8d82c.png"
   },
   {
     "revision": "bc950f9919df4b13c5c61e98c20495da",
@@ -192,7 +200,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/xd.183b4856.png"
   },
   {
-    "revision": "3b1ac8d3777c4f905e22b55810b9d0dc",
-    "url": "/static/media/zoom.3b1ac8d3.png"
+    "revision": "afd24549d394c4ce3c7bdb31e74e953e",
+    "url": "/static/media/zoom.afd24549.png"
   }
 ]);
